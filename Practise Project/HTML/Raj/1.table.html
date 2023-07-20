@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table with all tags</title>
+
+    <style>
+      body {
+        text-align: center;
+      }
+
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+      }
+
+      th {
+        width: 30px;
+      }
+
+      .tags {
+        width: 150px;
+      }
+
+      .desc {
+        width: 500px;
+      }
+
+      tr:nth-child(odd):hover {
+        background-color: orchid;
+      }
+
+      tr:nth-child(even):hover {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+
+  <body>
+    <caption>
+      1st Html project - Make a table & display all HTML Elements/Tags ...
+    </caption>
+
+    <table style="border: 2px solid black; border-collapse: no-collapse">
+      <tr>
+        <th>1</th>
+        <td class="tags">!--...--</td>
+        <td class="tags desc">Used for Comments.</td>
+      </tr>
+
+      <tr>
+        <th>2</th>
+        <td class="tags">!DOCTYPE</td>
+        <td class="tags desc">Used for defining it is an HTML5 Document.</td>
+      </tr>
+
+      <tr>
+        <th>3</th>
+        <td class="tags">a</td>
+        <td class="tags desc">Used for Links.</td>
+      </tr>
+
+      <tr>
+        <th>4</th>
+        <td class="tags">abbr</td>
+        <td class="tags desc">Used for defining abbreviation/acronym.</td>
+      </tr>
+
+      <tr>
+        <th>5</th>
+        <td class="tags">acronym</td>
+        <td class="tags desc">
+          Not supported in HTML5. We use abbr instead of this.
+        </td>
+      </tr>
+
+      <tr>
+        <th>6</th>
+        <td class="tags">address</td>
+        <td class="tags desc">
+          Used for defining contact information for the author/owner in an
+          Italic way.
+        </td>
+      </tr>
+
+      <tr>
+        <th>7</th>
+        <td class="tags">applet</td>
+        <td class="tags desc">
+          Not supported in HTML5, Used for defining an embedded applet.
+        </td>
+      </tr>
+
+      <tr>
+        <th>8</th>
+        <td class="tags">area</td>
+        <td class="tags desc">Used for defining an area inside image map.</td>
+      </tr>
+
+      <tr>
+        <th>9</th>
+        <td class="tags">article</td>
+        <td class="tags desc">Used for defining articles.</td>
+      </tr>
+
+      <tr>
+        <th>10</th>
+        <td class="tags">aside</td>
+        <td class="tags desc">
+          Used for aside(mostly sidebar) of the page content.
+        </td>
+      </tr>
+
+      <tr>
+        <th>11</th>
+        <td class="tags">audio</td>
+        <td class="tags desc">Used for embedded sound content.</td>
+      </tr>
+
+      <tr>
+        <th>12</th>
+        <td class="tags">b</td>
+        <td class="tags desc">Used for defining bold text.</td>
+      </tr>
+
+      <tr>
+        <th>13</th>
+        <td class="tags">base</td>
+        <td class="tags desc">
+          Used for defining the base URL/target for all relative URLs in a
+          document.
+        </td>
+      </tr>
+
+      <tr>
+        <th>14</th>
+        <td class="tags">basefont</td>
+        <td class="tags desc">
+          Not Supported in HTML5, Used for specifying default color, size & font
+          of text.
+        </td>
+      </tr>
+
+      <tr>
+        <th>15</th>
+        <td class="tags">bdi</td>
+        <td class="tags desc">
+          Used for defining the part of text that might be formatted in
+          different direction from other text outside it.
+        </td>
+      </tr>
+
+      <tr>
+        <th>16</th>
+        <td class="tags">bdo</td>
+        <td class="tags desc">Used for current text-direction(ltr/rtl).</td>
+      </tr>
+
+      <tr>
+        <th>17</th>
+        <td class="tags">big</td>
+        <td class="tags desc">
+          Not supported in HTML5. Use CSS instead for big text.
+        </td>
+      </tr>
+
+      <tr>
+        <th>18</th>
+        <td class="tags">blockquote</td>
+        <td class="tags desc">
+          Used for defining a section that is quoted from another source.
+        </td>
+      </tr>
+
+      <tr>
+        <th>19</th>
+        <td class="tags">body</td>
+        <td class="tags desc">Used for defining document's body.</td>
+      </tr>
+
+      <tr>
+        <th>20</th>
+        <td class="tags">br</td>
+        <td class="tags desc">Used for single Line Break.</td>
+      </tr>
+
+      <tr>
+        <th>21</th>
+        <td class="tags">button</td>
+        <td class="tags desc">Used for clickable buttons.</td>
+      </tr>
+
+      <tr>
+        <th>22</th>
+        <td class="tags">canvas</td>
+        <td class="tags desc">Used to draw graphics.</td>
+      </tr>
+
+      <tr>
+        <th>23</th>
+        <td class="tags">caption</td>
+        <td class="tags desc">Used to define a table caption.</td>
+      </tr>
+
+      <tr>
+        <th>24</th>
+        <td class="tags">center</td>
+        <td class="tags desc">
+          Not supported in HTML5, Used to define a text in center.
+        </td>
+      </tr>
+
+      <tr>
+        <th>25</th>
+        <td class="tags">cite</td>
+        <td class="tags desc">Used for defining a title of the work</td>
+      </tr>
+
+      <tr>
+        <th>26</th>
+        <td class="tags">code</td>
+        <td class="tags desc">Used to define a piece of computer code.</td>
+      </tr>
+
+      <tr>
+        <th>27</th>
+        <td class="tags">col</td>
+        <td class="tags desc">
+          Used for defining a column properties for each column within a
+          colgroup element.
+        </td>
+      </tr>
+
+      <tr>
+        <th>28</th>
+        <td class="tags">colgroup</td>
+        <td class="tags desc">
+          It specifies a group of 1 or more columns in table for formatting.
+        </td>
+      </tr>
+
+      <tr>
+        <th>29</th>
+        <td class="tags">data</td>
+        <td class="tags desc">
+          Adds a machine-readable translation of a given content.
+        </td>
+      </tr>
+
+      <tr>
+        <th>30</th>
+        <td class="tags">datalist</td>
+        <td class="tags desc">
+          Used to specify a list of pre-defined options for input controls.
+        </td>
+      </tr>
+
+      <tr>
+        <th>31</th>
+        <td class="tags">dd</td>
+        <td class="tags desc">
+          Used to define a description/value of a term in a description list.
+        </td>
+      </tr>
+
+      <tr>
+        <th>32</th>
+        <td class="tags">del</td>
+        <td class="tags desc">
+          Used to define a text that has been deleted from a document.
+        </td>
+      </tr>
+
+      <tr>
+        <th>33</th>
+        <td class="tags">details</td>
+        <td class="tags desc">
+          Used to define an additional details that the user can view or hide.
+        </td>
+      </tr>
+
+      <tr>
+        <th>34</th>
+        <td class="tags">dfn</td>
+        <td class="tags desc">
+          Used to specifies a term that is going to be defined within the
+          content.
+        </td>
+      </tr>
+
+      <tr>
+        <th>35</th>
+        <td class="tags">dialog</td>
+        <td class="tags desc">Used to define a dialog box or window.</td>
+      </tr>
+
+      <tr>
+        <th>36</th>
+        <td class="tags">dir</td>
+        <td class="tags desc">
+          Not supported in HTML5. Use ul instead of it, for defining a directory
+          list
+        </td>
+      </tr>
+
+      <tr>
+        <th>37</th>
+        <td class="tags">div</td>
+        <td class="tags desc">Used to define a section in a document.</td>
+      </tr>
+
+      <tr>
+        <th>38</th>
+        <td class="tags">dl</td>
+        <td class="tags desc">Used to define a description list.</td>
+      </tr>
+
+      <tr>
+        <th>39</th>
+        <td class="tags">dt</td>
+        <td class="tags desc">
+          Used to define a term/name in a description list.
+        </td>
+      </tr>
+
+      <tr>
+        <th>40</th>
+        <td class="tags">em</td>
+        <td class="tags desc">
+          Used to define a emphasized text(just like italic).
+        </td>
+      </tr>
+
+      <tr>
+        <th>41</th>
+        <td class="tags">embed</td>
+        <td class="tags desc">
+          Used to define a container for an external application.
+        </td>
+      </tr>
+
+      <tr>
+        <th>42</th>
+        <td class="tags">fieldset</td>
+        <td class="tags desc">
+          Used to define a groups related elements in a form.
+        </td>
+      </tr>
+
+      <tr>
+        <th>43</th>
+        <td class="tags">figcaptions</td>
+        <td class="tags desc">
+          Used to define a caption for a figure element.
+        </td>
+      </tr>
+
+      <tr>
+        <th>44</th>
+        <td class="tags">figure</td>
+        <td class="tags desc">Used to define a self-contained content.</td>
+      </tr>
+
+      <tr>
+        <th>45</th>
+        <td class="tags">font</td>
+        <td class="tags desc">
+          Not supported in HTML5. Use CSS instead, Used for defining font,
+          color, size for text.
+        </td>
+      </tr>
+
+      <tr>
+        <th>46</th>
+        <td class="tags">footer</td>
+        <td class="tags desc">
+          Used to define a footer for a document/section
+        </td>
+      </tr>
+
+      <tr>
+        <th>47</th>
+        <td class="tags">form</td>
+        <td class="tags desc">Used to define an HTML form for user input</td>
+      </tr>
+
+      <tr>
+        <th>48</th>
+        <td class="tags">frame</td>
+        <td class="tags desc">
+          Not supported in HTML5, Used to define a window (a frame) in a
+          frameset.
+        </td>
+      </tr>
+
+      <tr>
+        <th>49</th>
+        <td class="tags">frameset</td>
+        <td class="tags desc">
+          Not supported in HTML5, Used to define a set of frames.
+        </td>
+      </tr>
+
+      <tr>
+        <th>50</th>
+        <td class="tags">h1-h6</td>
+        <td class="tags desc">Used to define a HTML Headings.</td>
+      </tr>
+
+      <tr>
+        <th>51</th>
+        <td class="tags">head</td>
+        <td class="tags desc">
+          Used to define a contains metadata/information for the document.
+        </td>
+      </tr>
+
+      <tr>
+        <th>52</th>
+        <td class="tags">header</td>
+        <td class="tags desc">
+          Used to define a header for a document/section.
+        </td>
+      </tr>
+
+      <tr>
+        <th>53</th>
+        <td class="tags">hr</td>
+        <td class="tags desc">
+          Used to define a thematic change in the content, horizontal line to
+          separate contents.
+        </td>
+      </tr>
+
+      <tr>
+        <th>54</th>
+        <td class="tags">html</td>
+        <td class="tags desc">Parent/Root Element of an html document/page.</td>
+      </tr>
+
+      <tr>
+        <th>55</th>
+        <td class="tags">i</td>
+        <td class="tags desc">Used to define in italic.</td>
+      </tr>
+
+      <tr>
+        <th>56</th>
+        <td class="tags">iframe</td>
+        <td class="tags desc">Used to define an inline frame.</td>
+      </tr>
+
+      <tr>
+        <th>57</th>
+        <td class="tags">img</td>
+        <td class="tags desc">Used to define an images.</td>
+      </tr>
+
+      <tr>
+        <th>58</th>
+        <td class="tags">input</td>
+        <td class="tags desc">Used to define an input control.</td>
+      </tr>
+
+      <tr>
+        <th>59</th>
+        <td class="tags">ins</td>
+        <td class="tags desc">
+          Used to define a text that has been inserted into a document.
+        </td>
+      </tr>
+
+      <tr>
+        <th>60</th>
+        <td class="tags">kbd</td>
+        <td class="tags desc">Used to define a keyboard input.</td>
+      </tr>
+
+      <tr>
+        <th>61</th>
+        <td class="tags">label</td>
+        <td class="tags desc">Used to define a label for an input element.</td>
+      </tr>
+
+      <tr>
+        <th>62</th>
+        <td class="tags">legend</td>
+        <td class="tags desc">
+          Used to define a caption for a fieldset element.
+        </td>
+      </tr>
+
+      <tr>
+        <th>63</th>
+        <td class="tags">li</td>
+        <td class="tags desc">Used to define a list item.</td>
+      </tr>
+
+      <tr>
+        <th>64</th>
+        <td class="tags">link</td>
+        <td class="tags desc">
+          Used to define the relationship between a document and an external
+          resource (most Used to link to style sheets).
+        </td>
+      </tr>
+
+      <tr>
+        <th>65</th>
+        <td class="tags">main</td>
+        <td class="tags desc">
+          Used to specifies the main content of a document.
+        </td>
+      </tr>
+
+      <tr>
+        <th>66</th>
+        <td class="tags">map</td>
+        <td class="tags desc">Used to define an image map.</td>
+      </tr>
+
+      <tr>
+        <th>67</th>
+        <td class="tags">mark</td>
+        <td class="tags desc">Used to define a marked/highlighted text.</td>
+      </tr>
+
+      <tr>
+        <th>68</th>
+        <td class="tags">meta</td>
+        <td class="tags desc">
+          Used to define a metadata(data about data) in an HTML document.
+        </td>
+      </tr>
+
+      <tr>
+        <th>69</th>
+        <td class="tags">meter</td>
+        <td class="tags desc">
+          Used to define a scalar measurement within a known range (a gauge).
+        </td>
+      </tr>
+
+      <tr>
+        <th>70</th>
+        <td class="tags">nav</td>
+        <td class="tags desc">Used to define a navigation links.</td>
+      </tr>
+
+      <tr>
+        <th>71</th>
+        <td class="tags">noframes</td>
+        <td class="tags desc">
+          Not supported in HTML5, Used to define an alternate content for users
+          that do not support frames.
+        </td>
+      </tr>
+
+      <tr>
+        <th>72</th>
+        <td class="tags">noscript</td>
+        <td class="tags desc">
+          Used to define an alternate content for users that do not support
+          client-side scripts.
+        </td>
+      </tr>
+
+      <tr>
+        <th>73</th>
+        <td class="tags">object</td>
+        <td class="tags desc">
+          Used to define a container for an external application.
+        </td>
+      </tr>
+
+      <tr>
+        <th>74</th>
+        <td class="tags">ol</td>
+        <td class="tags desc">Used to define an an ordered list.</td>
+      </tr>
+
+      <tr>
+        <th>75</th>
+        <td class="tags">optgroup</td>
+        <td class="tags desc">
+          Used to define a group of related options in a drop-down list.
+        </td>
+      </tr>
+
+      <tr>
+        <th>76</th>
+        <td class="tags">option</td>
+        <td class="tags desc">Used to define an option in a drop-down list.</td>
+      </tr>
+
+      <tr>
+        <th>77</th>
+        <td class="tags">output</td>
+        <td class="tags desc">Used to define the result of a calculation.</td>
+      </tr>
+
+      <tr>
+        <th>78</th>
+        <td class="tags">p</td>
+        <td class="tags desc">Used to define a paragraph.</td>
+      </tr>
+
+      <tr>
+        <th>79</th>
+        <td class="tags">params</td>
+        <td class="tags desc">Used to define a parameter for an object.</td>
+      </tr>
+
+      <tr>
+        <th>80</th>
+        <td class="tags">picture</td>
+        <td class="tags desc">
+          Used to define a container for multiple image resources.
+        </td>
+      </tr>
+
+      <tr>
+        <th>81</th>
+        <td class="tags">pre</td>
+        <td class="tags desc">Used to define a preformatted text.</td>
+      </tr>
+
+      <tr>
+        <th>82</th>
+        <td class="tags">progress</td>
+        <td class="tags desc">Used to represents the progress of a task.</td>
+      </tr>
+
+      <tr>
+        <th>83</th>
+        <td class="tags">q</td>
+        <td class="tags desc">Used to define a short quotation.</td>
+      </tr>
+
+      <tr>
+        <th>84</th>
+        <td class="tags">rp</td>
+        <td class="tags desc">
+          Used to define what to show in browsers that do not support ruby
+          annotations.
+        </td>
+      </tr>
+
+      <tr>
+        <th>85</th>
+        <td class="tags">rt</td>
+        <td class="tags desc">
+          Used to define an explanation/pronunciation of characters (for East
+          Asian typography).
+        </td>
+      </tr>
+
+      <tr>
+        <th>86</th>
+        <td class="tags">ruby</td>
+        <td class="tags desc">
+          Used to define a ruby annotation (for East Asian typography).
+        </td>
+      </tr>
+
+      <tr>
+        <th>87</th>
+        <td class="tags">s</td>
+        <td class="tags desc">
+          Used to define text that is no longer correct.
+        </td>
+      </tr>
+
+      <tr>
+        <th>88</th>
+        <td class="tags">samp</td>
+        <td class="tags desc">
+          Used to define sample output from a computer program.
+        </td>
+      </tr>
+
+      <tr>
+        <th>89</th>
+        <td class="tags">script</td>
+        <td class="tags desc">Used to define a client-side script.</td>
+      </tr>
+
+      <tr>
+        <th>90</th>
+        <td class="tags">section</td>
+        <td class="tags desc">Used to define a section in a document.</td>
+      </tr>
+
+      <tr>
+        <th>91</th>
+        <td class="tags">select</td>
+        <td class="tags desc">Used to define a drop-down list.</td>
+      </tr>
+
+      <tr>
+        <th>92</th>
+        <td class="tags">small</td>
+        <td class="tags desc">Used to define smaller text.</td>
+      </tr>
+
+      <tr>
+        <th>93</th>
+        <td class="tags">source</td>
+        <td class="tags desc">
+          Used to define multiple media resources for media elements (video and
+          audio).
+        </td>
+      </tr>
+
+      <tr>
+        <th>94</th>
+        <td class="tags">span</td>
+        <td class="tags desc">Used to define a section in a document.</td>
+      </tr>
+
+      <tr>
+        <th>95</th>
+        <td class="tags">strike</td>
+        <td class="tags desc">
+          Not supported in HTML5. Use del or s instead, Used for defining
+          strikethrough text
+        </td>
+      </tr>
+
+      <tr>
+        <th>96</th>
+        <td class="tags">strong</td>
+        <td class="tags desc">Used to define important text.</td>
+      </tr>
+
+      <tr>
+        <th>97</th>
+        <td class="tags">style</td>
+        <td class="tags desc">
+          Used to define style information for a document.
+        </td>
+      </tr>
+
+      <tr>
+        <th>98</th>
+        <td class="tags">sub</td>
+        <td class="tags desc">Used to define subscripted text.</td>
+      </tr>
+
+      <tr>
+        <th>99</th>
+        <td class="tags">summary</td>
+        <td class="tags desc">
+          Used to define a visible heading for a details element.
+        </td>
+      </tr>
+
+      <tr>
+        <th>100</th>
+        <td class="tags">sup</td>
+        <td class="tags desc">Used to define superscripted text.</td>
+      </tr>
+
+      <tr>
+        <th>101</th>
+        <td class="tags">svg</td>
+        <td class="tags desc">Used to define a container for SVG graphics.</td>
+      </tr>
+
+      <tr>
+        <th>102</th>
+        <td class="tags">table</td>
+        <td class="tags desc">Used to define a table.</td>
+      </tr>
+
+      <tr>
+        <th>103</th>
+        <td class="tags">tbody</td>
+        <td class="tags desc">Used to groups the body content in a table.</td>
+      </tr>
+
+      <tr>
+        <th>104</th>
+        <td class="tags">td</td>
+        <td class="tags desc">Used to define a cell in a table.</td>
+      </tr>
+
+      <tr>
+        <th>105</th>
+        <td class="tags">template</td>
+        <td class="tags desc">
+          Used to define a container for content that should be hidden when the
+          page loads.
+        </td>
+      </tr>
+
+      <tr>
+        <th>106</th>
+        <td class="tags">textarea</td>
+        <td class="tags desc">
+          Used to define a multiline input control (text area).
+        </td>
+      </tr>
+
+      <tr>
+        <th>107</th>
+        <td class="tags">tfoot</td>
+        <td class="tags desc">Used to groups the footer content in a table.</td>
+      </tr>
+
+      <tr>
+        <th>108</th>
+        <td class="tags">th</td>
+        <td class="tags desc">Used to define a header cell in a table.</td>
+      </tr>
+
+      <tr>
+        <th>109</th>
+        <td class="tags">thead</td>
+        <td class="tags desc">Used to groups the header content in a table.</td>
+      </tr>
+
+      <tr>
+        <th>110</th>
+        <td class="tags">time</td>
+        <td class="tags desc">Used to define a specific time (or datetime).</td>
+      </tr>
+
+      <tr>
+        <th>111</th>
+        <td class="tags">title</td>
+        <td class="tags desc">Used to define a title for the document.</td>
+      </tr>
+
+      <tr>
+        <th>112</th>
+        <td class="tags">tr</td>
+        <td class="tags desc">Used to define a row in a table.</td>
+      </tr>
+
+      <tr>
+        <th>113</th>
+        <td class="tags">track</td>
+        <td class="tags desc">
+          Used to define text tracks for media elements (video and audio).
+        </td>
+      </tr>
+
+      <tr>
+        <th>114</th>
+        <td class="tags">tt</td>
+        <td class="tags desc">
+          Not supported in HTML5. Use CSS instead, define teletype text.
+        </td>
+      </tr>
+
+      <tr>
+        <th>115</th>
+        <td class="tags">u</td>
+        <td class="tags desc">
+          Used to define some text that is unarticulated and styled differently
+          from normal text or underline the words.
+        </td>
+      </tr>
+
+      <tr>
+        <th>116</th>
+        <td class="tags">ul</td>
+        <td class="tags desc">Used to define an unordered list.</td>
+      </tr>
+
+      <tr>
+        <th>117</th>
+        <td class="tags">var</td>
+        <td class="tags desc">Used to define a variable.</td>
+      </tr>
+
+      <tr>
+        <th>118</th>
+        <td class="tags">video</td>
+        <td class="tags desc">Used to define embedded video content.</td>
+      </tr>
+
+      <tr>
+        <th>119</th>
+        <td class="tags">wbr</td>
+        <td class="tags desc">Used to define a possible line-break.</td>
+      </tr>
+
+      <tr>
+        <th>120</th>
+        <td class="tags">marquee</td>
+        <td class="tags desc">
+          Not Used in HTML5, Used to represent as text is moving like in news
+          text moves.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+<!-- 
+tr:hover
+{
+    background-color: orchid
+}
+
+tr:nth-child(1):hover 
+{
+    background-color: red
+}
+
+tr:nth-child(2):hover 
+{
+    background-color: blue
+}
+-->
