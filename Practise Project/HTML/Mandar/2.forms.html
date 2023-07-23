@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Input Types</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1>All Input Types</h1>
+    <form>
+        <label for="text_input">Text Input:</label>
+        <input type="text" id="text_input" name="text_input" placeholder="Enter text here" required>
+
+        <label for="email_input">Email Input:</label>
+        <input type="email" id="email_input" name="email_input" placeholder="example@example.com" required>
+
+        <label for="password_input">Password Input:</label>
+        <input type="password" id="password_input" name="password_input" required>
+
+        <label for="number_input">Number Input:</label>
+        <input type="number" id="number_input" name="number_input" min="1" max="100" required>
+
+        <label for="date_input">Date Input:</label>
+        <input type="date" id="date_input" name="date_input" required>
+
+        <label for="checkbox_input">Checkbox:</label>
+        <input type="checkbox" id="checkbox_input" name="checkbox_input">
+
+        <label for="radio_input1">Radio Button 1:</label>
+        <input type="radio" id="radio_input1" name="radio_group" value="option1" checked>
+        <label for="radio_input2">Radio Button 2:</label>
+        <input type="radio" id="radio_input2" name="radio_group" value="option2">
+
+        <label for="select_input">Select:</label>
+        <select id="select_input" name="select_input">
+            <option value="option1">Mandar</option>
+            <option value="option2">Dipesh</option>
+            <option value="option3">tarun</option>
+        </select>
+
+        <label for="textarea_input">Textarea:</label>
+        <textarea id="textarea_input" name="textarea_input" rows="4" placeholder="Enter your message here"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
